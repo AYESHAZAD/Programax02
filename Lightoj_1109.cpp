@@ -21,7 +21,7 @@ int divisor(int n)
 bool comp( pair<int,int> a, pair<int,int> b )
 {
     if(a.first!=b.first)
-        return (a.first< b.first);///if x!=y then we check if div(x)<div(y)
+        return (a.first< b.first);///if div(x)!=div(y) then we check if div(x)<div(y)
 
     else
         return (a.second>b.second);///if x==y then we check if(x>y)
