@@ -75,6 +75,7 @@ int main()
 
             edge.push_back(node(u,v,w));
         }
+        
         sort(edge.begin(),edge.end());
         sum1=krushkal(n);
 
