@@ -80,7 +80,6 @@ int main()
                 printf("Impossible\n");
         }
 
-
         for(int i=0; i<n; i++)
             v[i].clear();
 
